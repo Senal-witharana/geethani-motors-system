@@ -1,5 +1,5 @@
 //sidebar
-"use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -48,22 +48,6 @@ const sidebarItems = [
     name: "help",
     href: "/help",
     icon: MdHelp,
-  },
-  {
-    name: "terms",
-    href: "/terms",
-    icon: MdAssignment,
-  },
-  {
-    name: "privacy",
-    href: "/privacy",
-    icon: MdSecurity,
-  },
-
-  {
-    name: "support",
-    href: "/support",
-    icon: MdLiveHelp,
   },
 ];
 
